@@ -1,3 +1,3 @@
 # Declaro variables
-x=55
+x=555
 y=10
