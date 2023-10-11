@@ -1,2 +1,3 @@
 # Declaro variables
 x=33
+y=10
