@@ -1,5 +1,5 @@
 ---
-title: "SolucionEjercicios"
+title: "Solucion Ejercicios Análisis Exploratorio de Datos"
 author: "Javier Hinarejos Albero"
 date: "2023-10-11"
 output: html_document
