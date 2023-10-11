@@ -53,12 +53,17 @@ colnames(y)
 Usa la función intersect y almacena en la variable commonAnimals los aminales que aparezcan en ambos conjuntos
 
 ```{r}
-commonAnimals <- intersect(x,y)
+commonAnimals <- intersect(rownames(x),rownames(y))
 print(commonAnimals)
 ```
 
 
 Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
+
+```{r}
+setdiff(rownames(x), rownames(y))
+```
+
 
 Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
 ```{r}
