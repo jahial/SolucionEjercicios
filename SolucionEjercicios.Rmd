@@ -6,11 +6,20 @@ output: html_document
 ---
 ## Ejercicio 
 Considera los conjuntos de datos mammals del paquete MASS y Animals2 del paquete robustbase.
-```{r}
-
-```
 
 Mira la las características de ambos conjuntos usando la ayuda.
+
+```{r}
+library(MASS)
+library(robustbase)
+```
+
+```{r}
+data("mammals")
+data("Animals2")
+```
+
+
 
 Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
 
