@@ -18,6 +18,9 @@ library(robustbase)
 data("mammals")
 data("Animals2")
 ```
+
+
+Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
 ```{r}
 x <- mammals
 dim(x)
@@ -25,6 +28,7 @@ head(x)
 tail(x)
 str(x)
 ```
+
 ```{r}
 y <- Animals2
 dim(y)
@@ -33,12 +37,18 @@ tail(y)
 str(y)
 ```
 
-
-
-
-Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
-
 Muestra los nombres de las filas y las columnas (rownames, colnames)
+```{r}
+rownames(x)
+colnames(x)
+```
+
+```{r}
+rownames(y)
+colnames(y)
+```
+
+
 
 Usa la función intersect y almacena en la variable commonAnimals los aminales que aparezcan en ambos conjuntos
 
